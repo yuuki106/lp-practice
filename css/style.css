@@ -7,6 +7,10 @@
 
 header {
   background-color: #fff;
+  padding: 15px 0;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 
 .header-inner {
@@ -14,9 +18,8 @@ header {
   justify-content: space-between;
 }
 
-h1 {
+.logo {
   color: #777;
-  padding: 15px 0;
 }
 
 .contact-btn {
@@ -25,7 +28,6 @@ h1 {
   font-size: 12px;
   padding: 12px 14px;
   display: inline-block;
-  margin-top: 15px;
   text-decoration: none;
   transition: .3s;
 }
@@ -39,18 +41,17 @@ h1 {
 .hero {
   text-align: center;
   background: url(../img/keyvisual/keyvisual.jpg) 0%/cover;
+  padding: 400px 0;
 }
 
 .hero h2 {
-  padding-top: 400px;
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
 }
 
 .hero h3 {
-  padding-top: 30px;
-  padding-bottom: 400px;
+  margin-top: 30px;
   font-size: 40px;
   font-weight: 700;
   color: #ffffff;
