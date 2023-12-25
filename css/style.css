@@ -61,11 +61,11 @@ header {
 /* ------------------------------------------------ */
 .work-wrapper {
   background: #e3f2fd;
+  padding-top: 50px;
 }
 
 .work-inner {
   display: flex;
-  padding-top: 50px;
 
 }
 
@@ -81,7 +81,7 @@ header {
 .work-info h2 {
   font-size: 40px;
   letter-spacing: 10px;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .work-text {
@@ -96,6 +96,7 @@ header {
 
 .skills-wrapper {
   background-color: #fff;
+  padding: 50px 0 70px;
 }
 
 .skills-wrapper h2 {
@@ -105,8 +106,6 @@ header {
 
 .skills-inner {
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 70px;
 }
 
 .skills-imgs {
@@ -138,9 +137,9 @@ header {
 .selectplan-wrapper h2 {
   font-size: 40px;
   letter-spacing: 10px;
+  padding-bottom: 50px;
 }
 .selectplans{
-  margin: 50px auto 0;
   width: 100%;
 }
 
@@ -174,8 +173,6 @@ header {
 .sns-wrapper{
   background-color: #e3f2fd;
   text-align: center;
-}
-.sns-icons{
   padding: 200px 0;
 }
 .sns-icons a{
@@ -194,7 +191,7 @@ header {
 /* ------------------------------------------------ */
 footer{
   background-color: #cfd8dc;
-  padding: 20px 0 25px 0;
+  padding: 20px 0 25px;
 
 }
 small{
