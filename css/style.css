@@ -71,6 +71,7 @@ header {
 
 .work-img {
   width: 40%;
+  margin: 0 auto;
 }
 
 .work-info {
@@ -111,7 +112,7 @@ header {
 .skills-imgs {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
   gap: 100px;
   margin-top: 50px;
@@ -137,7 +138,7 @@ header {
 .selectplan-wrapper h2 {
   font-size: 40px;
   letter-spacing: 10px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .selectplans{
   width: 100%;
@@ -174,6 +175,10 @@ header {
   background-color: #e3f2fd;
   text-align: center;
   padding: 200px 0;
+}
+.sns-icons{
+  display: flex;
+  justify-content: center;
 }
 .sns-icons a{
   color: #8c8c8c;
