@@ -36,6 +36,9 @@ header {
 }
 
 /* ------------------------------------------------ */
+main{
+  padding-top: 78px;
+}
 /* ------------------------------------------------ */
 
 .hero {
@@ -71,7 +74,7 @@ header {
 
 .work-img {
   width: 40%;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .work-info {
@@ -121,6 +124,7 @@ header {
 
 .skills-imgs img {
   opacity: .7;
+  transition: .7s;
 }
 
 .skills-imgs img:hover {
