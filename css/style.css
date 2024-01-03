@@ -1,8 +1,13 @@
 @charset "utf-8";
 
+
+
 .inner {
   width: 1100px;
   margin: 0 auto;
+}
+.sp-only{
+  display: none;
 }
 
 header {
@@ -31,14 +36,16 @@ header {
   text-decoration: none;
   transition: .3s;
 }
-.contact-btn:hover  {
+
+.contact-btn:hover {
   color: #333;
 }
 
 /* ------------------------------------------------ */
-main{
+main {
   padding-top: 78px;
 }
+
 /* ------------------------------------------------ */
 
 .hero {
@@ -69,7 +76,6 @@ main{
 
 .work-inner {
   display: flex;
-
 }
 
 .work-img {
@@ -144,7 +150,8 @@ main{
   letter-spacing: 10px;
   margin-bottom: 50px;
 }
-.selectplans{
+
+.selectplans {
   width: 100%;
 }
 
@@ -169,22 +176,26 @@ main{
 .selectplans tr:nth-child(odd) {
   background-color: #e0efff;
 }
+
 .selectplans tr:nth-child(even) {
   background-color: #f9f9f9;
 }
+
 /* ------------------------------------------------ */
 /* ------------------------------------------------ */
 
-.sns-wrapper{
+.sns-wrapper {
   background-color: #e3f2fd;
   text-align: center;
   padding: 200px 0;
 }
-.sns-icons{
+
+.sns-icons {
   display: flex;
   justify-content: center;
 }
-.sns-icons a{
+
+.sns-icons a {
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
@@ -193,23 +204,134 @@ main{
   transition: .5s;
   padding: 25px 0;
 }
-.sns-icons a:hover{
+
+.sns-icons a:hover {
   background-color: #fff;
 }
+
 /* ------------------------------------------------ */
 /* ------------------------------------------------ */
-footer{
+footer {
   background-color: #cfd8dc;
   padding: 20px 0 25px;
 
 }
-small{
+
+small {
   font-size: 10px;
   letter-spacing: 0.5px;
   float: right;
 }
+
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media screen and (max-width: 1199px) {
+  .inner {
+    width: 97%;
+  }
+
+  /* ------------------------------------------------ */
+  .hero {
+    padding: 250px 0;
+  }
+
+  /* ------------------------------------------------ */
+  .work-wrapper {
+    padding: 50px 0;
+  }
+
+  .work-inner {
+    flex-direction: column;
+  }
+
+  .work-img {
+    width: 100%;
+  }
+
+  .work-info {
+    width: 100%;
+  }
+
+  /* ------------------------------------------------ */
+  .skills-imgs {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .skills-imgs li:nth-child(3n) {
+    margin-bottom: 80px;
+  }
+  .skills-imgs li:last-child{
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  
+  
+  .pc-tab-only{
+    display: none;
+  }
+  .sp-only{
+    display: block;
+  }
+  /* ------------------------------------------------ */
+  .hamburger{
+    width: 40px;
+    height: 35px;
+    border: 2px #d1d2d1 solid;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .hamburger li{
+    width: 25px;
+    border: 2px #d1d2d1 solid;
+    border-radius: 4px;
+    margin: 6px auto;
+  }
+/* ------------------------------------------------ */
+
+.hero {
+  padding: 200px 0;
+}
+  .hero h2{
+    font-size: 40px;
+  }
+  .hero h3{
+    font-size: 30px;
+  }
+
+  /* ------------------------------------------------ */
+
+  .selectplans th{
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .selectplans td{
+    font-size: 12px;
+  }
+  /* ------------------------------------------------ */
+
+  .sns-wrapper{
+    padding: 50px 0;
+  }
+
+  .sns-icons{
+    flex-direction: column;
+  }
+  .sns-icons li{
+    padding: 50px 15px;
+  }
+  .sns-icons a{
+    width: 100%;
+    padding: 0;
+  }
 }
