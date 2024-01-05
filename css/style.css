@@ -126,6 +126,8 @@ main {
   gap: 100px;
   margin-top: 50px;
 
+  font-size: 0;
+
 }
 
 .skills-imgs img {
@@ -274,8 +276,6 @@ small {
 
 @media screen and (max-width: 767px) {
 
-  
-  
   .pc-tab-only{
     display: none;
   }
